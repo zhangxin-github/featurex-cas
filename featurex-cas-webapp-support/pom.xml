@@ -5,7 +5,7 @@
     <parent>
         <artifactId>featurex-cas</artifactId>
         <groupId>org.wizard</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -14,11 +14,11 @@
     <dependencies>
         <dependency>
             <groupId>org.wizard</groupId>
-            <artifactId>wizard-boot-core</artifactId>
+            <artifactId>wizard-boot-security-core</artifactId>
         </dependency>
         <dependency>
             <groupId>org.wizard</groupId>
-            <artifactId>wizard-boot-web</artifactId>
+            <artifactId>wizard-boot-core</artifactId>
         </dependency>
     </dependencies>
 </project>

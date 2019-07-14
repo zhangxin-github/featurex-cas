@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: featurex-cas
+
+server:
+  port: 9000
+
+wizard:
+  # 数据源
+  core:
+    datasource:
+      url: jdbc:mysql://118.31.121.96/renren_fast?useUnicode=true&characterEncoding=utf-8
+      username: renren
+      password: z?guwrBhH7p>
+      enable: true
+    dict:
+      enable: false
+
+  #security
+  security:
+    appId: ${spring.application.name}
+    tenantId: system
+    captcha: false

@@ -7,7 +7,7 @@
     <groupId>org.wizard</groupId>
     <artifactId>featurex-cas</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <modules>
         <module>featurex-cas-webapp</module>
         <module>featurex-cas-webapp-support</module>
@@ -16,8 +16,24 @@
     <parent>
         <artifactId>wizard-boot</artifactId>
         <groupId>org.wizard</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.wizard</groupId>
+                <artifactId>featurex-cas-webapp-support</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <repositories>
+        <repository>
+            <id>mvnrepo</id>
+            <url>http://maven.hellozhang.xin/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
 
 </project>
