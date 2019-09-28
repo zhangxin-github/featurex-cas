@@ -4,26 +4,26 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.wizard</groupId>
-    <artifactId>featurex-cas</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0.0</version>
-    <modules>
-        <module>featurex-cas-webapp</module>
-        <module>featurex-cas-webapp-support</module>
-    </modules>
-
     <parent>
         <artifactId>wizard-boot</artifactId>
         <groupId>org.wizard</groupId>
         <version>1.0.0</version>
     </parent>
 
+    <artifactId>featurex-cas</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+
+    <modules>
+        <module>service-provider</module>
+        <module>web-start</module>
+    </modules>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.wizard</groupId>
-                <artifactId>featurex-cas-webapp-support</artifactId>
+                <artifactId>featurex-cas-service-provider</artifactId>
                 <version>1.0.0</version>
             </dependency>
         </dependencies>

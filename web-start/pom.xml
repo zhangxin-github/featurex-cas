@@ -10,7 +10,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>featurex-cas-webapp</artifactId>
+    <artifactId>featurex-cas-web-start</artifactId>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,7 +22,7 @@
     <dependencies>
         <dependency>
             <groupId>org.wizard</groupId>
-            <artifactId>featurex-cas-webapp-support</artifactId>
+            <artifactId>featurex-cas-service-provider</artifactId>
         </dependency>
         <dependency>
             <groupId>org.wizard</groupId>

@@ -9,15 +9,19 @@ wizard:
   # 数据源
   core:
     datasource:
-      url: jdbc:mysql://118.31.121.96/renren_fast?useUnicode=true&characterEncoding=utf-8
+      url: jdbc:mysql://118.31.121.96:13306/renren_fast?useUnicode=true&characterEncoding=utf-8
       username: renren
       password: z?guwrBhH7p>
       enable: true
     dict:
-      enable: false
+      enable: true
 
   #security
   security:
     appId: ${spring.application.name}
     tenantId: system
     captcha: false
+
+  #web
+  web:
+    enable: true
